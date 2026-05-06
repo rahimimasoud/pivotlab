@@ -24,7 +24,7 @@
           IO.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
 
     document.querySelectorAll(revealSelectors).forEach(function (el) {
       IO.observe(el);
@@ -36,6 +36,13 @@
         child.style.transitionDelay = (i * 0.09) + 's';
         IO.observe(child);
       });
+    });
+
+    /* Fallback: force-reveal any cards that are already in viewport on load */
+    document.querySelectorAll('.reveal-child').forEach(function (el) {
+      if (el.getBoundingClientRect().top < window.innerHeight) {
+        el.classList.add('visible');
+      }
     });
   }
 
