@@ -121,3 +121,25 @@
   }
 
 })();
+
+/* ── EOI MODAL ────────────────────────────────────────────── */
+function openEOI() {
+  document.getElementById('eoi-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeEOI() {
+  document.getElementById('eoi-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+(function () {
+  var modal = document.getElementById('eoi-modal');
+  if (!modal) return;
+  modal.addEventListener('click', function (e) {
+    if (e.target === modal) closeEOI();
+  });
+  modal.querySelector('.modal-close').addEventListener('click', closeEOI);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeEOI();
+  });
+})();
