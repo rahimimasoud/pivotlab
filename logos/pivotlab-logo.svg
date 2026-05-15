@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="148 75 385 310" width="385" height="310">
-  <title>PivotLab Logo</title>
-  <desc>PivotLab logo - triangular prism with depth lines and wordmark</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="148 75 385 310" width="385" height="310" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">PivotLab</title>
+  <desc id="logo-desc">PivotLab logo: a triangular prism with dashed depth lines and the PivotLab wordmark.</desc>
 
   <!-- Dashed back-face triangle (hidden edges for 3D depth) -->
   <!-- Top edge (back) -->

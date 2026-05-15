@@ -3,17 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PivotLab - Your career pivot starts here</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<title>PivotLab — Launch your data career</title>
+<meta name="description" content="PivotLab helps career changers transition into data roles with credible educators, real project portfolios, and financial pathways that remove every barrier.">
+<meta name="theme-color" content="#0E0E10">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:title"       content="PivotLab — Launch your data career">
+<meta property="og:description" content="Transition into high-demand data roles. Credible educators, real portfolios, income share options. No excuses left.">
+<meta property="og:url"         content="https://pivotlab.com.au">
+<meta property="og:image"       content="https://pivotlab.com.au/logos/og-image.png">
+
+<!-- Icons -->
 <link rel="icon" type="image/svg+xml" href="logos/pivotlab-favicon.svg">
+<link rel="apple-touch-icon" href="logos/apple-touch-icon.png">
+
+<!-- Fonts: Inter 400 + 500 only -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-logo"><img src="logos/pivotlab-logo.svg" alt="PivotLab" class="nav-logo-img"></a>
+  <a href="#" class="nav-logo">
+    <img src="logos/pivotlab-logo.svg" alt="PivotLab" class="nav-logo-img">
+  </a>
   <ul class="nav-links">
     <li><a href="#how">How it works</a></li>
     <li><a href="#pillars">What we offer</a></li>
@@ -23,114 +41,134 @@
   <a href="#" class="nav-cta" onclick="openEOI();return false;">Expression of interest &rarr;</a>
 </nav>
 
-<!-- HERO -->
+<!-- HERO — Option B: headline left, prism + rays right -->
 <section class="hero">
+  <div class="hero-inner">
 
-  <!-- Hero decorative blob -->
-  <svg class="hero-svg-bg" width="520" height="520" viewBox="0 0 520 520" fill="none" aria-hidden="true">
-    <ellipse cx="340" cy="210" rx="280" ry="250" fill="#fbbd41" opacity="0.09" transform="rotate(-16 340 210)"/>
-    <ellipse cx="290" cy="340" rx="200" ry="165" fill="#c1b0ff" opacity="0.07" transform="rotate(10 290 340)"/>
-    <ellipse cx="400" cy="120" rx="100" ry="90" fill="#84e7a5" opacity="0.06" transform="rotate(-5 400 120)"/>
-    <!-- dot grid 5x5 -->
-    <g fill="#dad4c8" opacity="0.6">
-      <circle cx="48" cy="48" r="2.5"/><circle cx="80" cy="48" r="2.5"/><circle cx="112" cy="48" r="2.5"/><circle cx="144" cy="48" r="2.5"/><circle cx="176" cy="48" r="2.5"/>
-      <circle cx="48" cy="80" r="2.5"/><circle cx="80" cy="80" r="2.5"/><circle cx="112" cy="80" r="2.5"/><circle cx="144" cy="80" r="2.5"/><circle cx="176" cy="80" r="2.5"/>
-      <circle cx="48" cy="112" r="2.5"/><circle cx="80" cy="112" r="2.5"/><circle cx="112" cy="112" r="2.5"/><circle cx="144" cy="112" r="2.5"/><circle cx="176" cy="112" r="2.5"/>
-      <circle cx="48" cy="144" r="2.5"/><circle cx="80" cy="144" r="2.5"/><circle cx="112" cy="144" r="2.5"/><circle cx="144" cy="144" r="2.5"/><circle cx="176" cy="144" r="2.5"/>
-      <circle cx="48" cy="176" r="2.5"/><circle cx="80" cy="176" r="2.5"/><circle cx="112" cy="176" r="2.5"/><circle cx="144" cy="176" r="2.5"/><circle cx="176" cy="176" r="2.5"/>
-    </g>
-    <!-- career path arc -->
-    <path d="M 60 420 Q 180 320 280 240 Q 360 180 460 100" stroke="#dad4c8" stroke-width="1.5" stroke-dasharray="6 8" fill="none" opacity="0.5"/>
-    <circle cx="460" cy="100" r="5" fill="#fbbd41" opacity="0.5"/>
-    <circle cx="280" cy="240" r="4" fill="#84e7a5" opacity="0.5"/>
-    <circle cx="60" cy="420" r="4" fill="#c1b0ff" opacity="0.5"/>
-  </svg>
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="hero-badge">Pivot to data careers</span>
+        <span class="hero-badge-outline">Data Analyst &bull; Data Engineer</span>
+      </div>
+      <h1>Launch your data career.<br><span class="hl-accent">Fully supported.</span><br>No excuses left.</h1>
+      <p class="hero-sub">Transition into high-demand data roles with credible educators, real project portfolios, a cohort who gets it, and financial pathways that remove the last excuse.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn-black" onclick="openEOI();return false;">Register interest &rarr;</a>
+        <a href="#how" class="btn-ghost">See how it works</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-block">
+          <div class="stat-num">16 wks</div>
+          <div class="stat-label">To job-ready</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-num">$0</div>
+          <div class="stat-label">Upfront options</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-num">AU-led</div>
+          <div class="stat-label">Industry educators</div>
+        </div>
+      </div>
+    </div><!-- /.hero-left -->
 
-  <div class="hero-content">
-  <div class="hero-eyebrow">
-    <span class="hero-badge">Pivot to data careers</span>
-    <span class="hero-badge-outline">Data Analyst • Business Intelligence Analyst</span>
-  </div>
-  <h1>Launch your data career.<br><span class="hl-matcha">Fully supported.</span><br>No excuses left.</h1>
-  <p class="hero-sub">Transition into high-demand data roles with credible educators, real project portfolios, a cohort who gets it, and financial pathways that remove the last excuse. Built for people who've hit a wall before and been told, or told themselves, they're not technical enough. You are. You just needed the right starting point.</p>
-  <div class="hero-actions">
-    <a href="#" class="btn-black" onclick="openEOI();return false;">Register interest &rarr;</a>
-    <a href="#how" class="btn-ghost">See how it works</a>
-  </div>
-  <div class="hero-stats">
-    <div class="stat-block">
-      <div class="stat-num">16 wks</div>
-      <div class="stat-label">To job-ready</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">$0</div>
-      <div class="stat-label">Upfront options</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-num">AU-led</div>
-      <div class="stat-label">Industry educators</div>
-    </div>
-  </div>
-  </div><!-- /.hero-content -->
+    <!-- Prism mark + diverging-ray motif -->
+    <div class="hero-visual">
+      <svg class="hero-prism-svg" viewBox="100 40 640 440" xmlns="http://www.w3.org/2000/svg"
+           role="img" aria-label="The PivotLab prism — one input, many bright career pathways">
+        <title>PivotLab prism</title>
+        <desc>A triangular prism with diverging rays to the right, representing career transformation.</desc>
+
+        <!-- Subtle filled refraction zone -->
+        <polygon points="465,130 340,365 720,450 720,48"
+          fill="#2E6F6A" fill-opacity="0.04" stroke="none"/>
+
+        <!-- Diverging rays from the right face (accent colour, fading outward) -->
+        <line x1="465" y1="130" x2="720" y2="48"  stroke="#2E6F6A" stroke-width="0.75" stroke-opacity="0.22"/>
+        <line x1="434" y1="189" x2="720" y2="158" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.38"/>
+        <line x1="402" y1="248" x2="720" y2="250" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.52"/>
+        <line x1="371" y1="307" x2="720" y2="342" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.38"/>
+        <line x1="340" y1="365" x2="720" y2="450" stroke="#2E6F6A" stroke-width="0.75" stroke-opacity="0.22"/>
+
+        <!-- Dashed back-face (hidden edges) -->
+        <path d="M 250 95 L 345 95"   fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <path d="M 405 95 L 500 95"   fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <path d="M 250 95 L 283 160"  fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <path d="M 320 233 L 370 330" fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <path d="M 500 95 L 467 160"  fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <path d="M 430 233 L 380 330" fill="none" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <line x1="250" y1="95"  x2="215" y2="130" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <line x1="500" y1="95"  x2="465" y2="130" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+        <line x1="375" y1="330" x2="340" y2="365" stroke="#0E0E10" stroke-width="2" stroke-linecap="square" stroke-dasharray="6 6" opacity="0.45"/>
+
+        <!-- Solid front face -->
+        <path d="M 215 130 L 310 130" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+        <path d="M 370 130 L 465 130" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+        <path d="M 215 130 L 248 195" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+        <path d="M 285 268 L 340 365" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+        <path d="M 465 130 L 432 195" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+        <path d="M 395 268 L 340 365" fill="none" stroke="#0E0E10" stroke-width="2.5" stroke-linecap="square"/>
+      </svg>
+    </div><!-- /.hero-visual -->
+
+  </div><!-- /.hero-inner -->
 </section>
 
 <!-- TICKER -->
 <div class="ticker-strip">
   <div class="ticker-track">
-    <span class="ticker-item"><span class="tdot tdot-y"></span>Data analytics curriculum</span>
-    <span class="ticker-item"><span class="tdot tdot-g"></span>SQL • Python • Tableau skills</span>
-    <span class="ticker-item"><span class="tdot tdot-b"></span>Real datasets & projects</span>
-    <span class="ticker-item"><span class="tdot tdot-p"></span>Data industry mentors</span>
-    <span class="ticker-item"><span class="tdot tdot-r"></span>Hire-ready portfolio</span>
-    <span class="ticker-item"><span class="tdot tdot-y"></span>Data Analyst pathways</span>
-    <span class="ticker-item"><span class="tdot tdot-g"></span>Income Share Agreements</span>
-    <span class="ticker-item"><span class="tdot tdot-b"></span>Tech stack preparation</span>
-    <span class="ticker-item"><span class="tdot tdot-p"></span>Data jobs network</span>
-    <span class="ticker-item"><span class="tdot tdot-r"></span>Flexible learning schedule</span>
-    <span class="ticker-item"><span class="tdot tdot-y"></span>Data analytics curriculum</span>
-    <span class="ticker-item"><span class="tdot tdot-g"></span>SQL • Python • Tableau skills</span>
-    <span class="ticker-item"><span class="tdot tdot-b"></span>Real datasets & projects</span>
-    <span class="ticker-item"><span class="tdot tdot-p"></span>Data industry mentors</span>
-    <span class="ticker-item"><span class="tdot tdot-r"></span>Hire-ready portfolio</span>
-    <span class="ticker-item"><span class="tdot tdot-y"></span>Data Analyst pathways</span>
-    <span class="ticker-item"><span class="tdot tdot-g"></span>Income Share Agreements</span>
-    <span class="ticker-item"><span class="tdot tdot-b"></span>Tech stack preparation</span>
-    <span class="ticker-item"><span class="tdot tdot-p"></span>Data jobs network</span>
-    <span class="ticker-item"><span class="tdot tdot-r"></span>Flexible learning schedule</span>
+    <span class="ticker-item"><span class="tdot"></span>Data analytics curriculum</span>
+    <span class="ticker-item"><span class="tdot"></span>SQL &bull; Python &bull; Tableau</span>
+    <span class="ticker-item"><span class="tdot"></span>Real datasets &amp; projects</span>
+    <span class="ticker-item"><span class="tdot"></span>Industry mentors</span>
+    <span class="ticker-item"><span class="tdot"></span>Hire-ready portfolio</span>
+    <span class="ticker-item"><span class="tdot"></span>Income share agreements</span>
+    <span class="ticker-item"><span class="tdot"></span>Tech stack preparation</span>
+    <span class="ticker-item"><span class="tdot"></span>Data jobs network</span>
+    <span class="ticker-item"><span class="tdot"></span>Flexible learning schedule</span>
+    <span class="ticker-item"><span class="tdot"></span>Data analytics curriculum</span>
+    <span class="ticker-item"><span class="tdot"></span>SQL &bull; Python &bull; Tableau</span>
+    <span class="ticker-item"><span class="tdot"></span>Real datasets &amp; projects</span>
+    <span class="ticker-item"><span class="tdot"></span>Industry mentors</span>
+    <span class="ticker-item"><span class="tdot"></span>Hire-ready portfolio</span>
+    <span class="ticker-item"><span class="tdot"></span>Income share agreements</span>
+    <span class="ticker-item"><span class="tdot"></span>Tech stack preparation</span>
+    <span class="ticker-item"><span class="tdot"></span>Data jobs network</span>
+    <span class="ticker-item"><span class="tdot"></span>Flexible learning schedule</span>
   </div>
 </div>
 
 <!-- PROBLEM -->
 <div class="problem-wrap">
   <div class="problem-section">
-    <!-- dot grid texture -->
-    <svg width="100%" height="100%" style="position:absolute;top:0;left:0;pointer-events:none;border-radius:40px;overflow:hidden" aria-hidden="true">
+    <!-- subtle dot grid -->
+    <svg width="100%" height="100%" style="position:absolute;top:0;left:0;pointer-events:none;overflow:hidden" aria-hidden="true">
       <defs>
         <pattern id="prob-dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-          <circle cx="2" cy="2" r="1.5" fill="#c1b0ff" opacity="0.35"/>
+          <circle cx="2" cy="2" r="1.5" fill="rgba(14,14,16,0.07)"/>
         </pattern>
       </defs>
       <rect width="100%" height="100%" fill="url(#prob-dots)"/>
     </svg>
     <span class="label">The real barrier to data careers</span>
-    <h2>Breaking into data is <span class="hl-ube">broken</span><br>for most career changers</h2>
-    <p class="problem-lead">Data careers are high-growth, high-paying, and increasingly in-demand. But the path is broken. Generic bootcamps assume coding experience, price out anyone with constraints, and leave you completely alone when it gets hard. When confusion hits, there's no one to say "ignore that for now", so people conclude they're not smart enough. They were never told the wall was the course, not them.</p>
+    <h2>Breaking into data is <span class="hl-accent">broken</span><br>for most career changers</h2>
+    <p class="problem-lead">Data careers are high-growth and increasingly in-demand. But the path is broken. Generic bootcamps assume coding experience, price out anyone with constraints, and leave you completely alone when it gets hard. People quit not because the content is too hard, but because there's no one to say "ignore that for now."</p>
     <div class="problem-grid" data-stagger>
       <div class="problem-card reveal-child">
         <div class="problem-stat">1 in 3</div>
-        <p>Up to one in three bootcamp graduates remain completely unemployed in their target field six full months after completion. Accelerated courses often fail to build deep expertise, leaving job-seekers stranded in a highly competitive market.</p>
+        <p>Bootcamp graduates remain unemployed in their target field six months after completion. Accelerated courses often fail to build deep expertise, leaving job-seekers stranded.</p>
       </div>
       <div class="problem-card reveal-child">
-        <div class="problem-stat">$10k–$17k+</div>
-        <p>The true average upfront cost of a data bootcamp. Despite the massive investment, these programs systematically skip critical mathematical and architectural fundamentals, leaving graduates fragile and underprepared for real enterprise data problems.</p>
+        <div class="problem-stat">$10k&ndash;$17k+</div>
+        <p>The average upfront cost of a data bootcamp. Despite the investment, most programs skip critical fundamentals, leaving graduates underprepared for real enterprise work.</p>
       </div>
       <div class="problem-card reveal-child">
-        <div class="problem-stat" style="font-size: clamp(32px, 3vw, 48px); line-height: 1.1;">The Proof Gap</div>
-        <p>Even career changers who finish a course have nothing concrete to show for it. A certificate from a platform with 50,000 identical reviews means nothing to a hiring manager. Without real projects and a portfolio, finishing is indistinguishable from not starting.</p>
+        <div class="problem-stat" style="font-size:clamp(26px,2.8vw,36px);line-height:1.1">The proof gap</div>
+        <p>Even career changers who finish a course have nothing concrete to show. A certificate from a platform with 50,000 identical reviews means nothing to a hiring manager.</p>
       </div>
       <div class="problem-card reveal-child">
-        <div class="problem-stat" style="font-size: clamp(28px, 2.8vw, 42px); line-height: 1.1;">The Confidence Trap</div>
-        <p>Most people don't quit because the content is too hard. They quit because hitting a wall, a SQL join, a Python error, feels like evidence they're not smart enough. They were never told that confusion is normal. That the wall is the course, not them.</p>
+        <div class="problem-stat" style="font-size:clamp(22px,2.4vw,32px);line-height:1.1">The confidence trap</div>
+        <p>Most people quit because hitting a wall feels like evidence they're not smart enough. They were never told that confusion is normal. The wall is the course, not them.</p>
       </div>
     </div>
   </div>
@@ -141,31 +179,31 @@
   <span class="label">The PivotLab way</span>
   <h2>From "what's SQL?" to<br>junior data role, step by step</h2>
   <div class="steps-list" style="position:relative">
-    <!-- vertical connector line behind pips -->
-    <svg class="steps-connector" aria-hidden="true" width="10" height="100%" style="position:absolute;left:35px;top:0;pointer-events:none;z-index:0">
-      <line x1="5" y1="0" x2="5" y2="100%" stroke="#dad4c8" stroke-width="1" stroke-dasharray="4 7"/>
+    <svg class="steps-connector" aria-hidden="true" width="10" height="100%"
+         style="position:absolute;left:35px;top:0;pointer-events:none;z-index:0">
+      <line x1="5" y1="0" x2="5" y2="100%" stroke="rgba(14,14,16,0.12)" stroke-width="1" stroke-dasharray="4 7"/>
     </svg>
     <div class="step-item reveal-left">
       <div class="step-num-col"><span class="step-num-label">01</span><div class="step-pip"></div></div>
       <div>
         <div class="step-title">Find your data fit</div>
-        <p class="step-desc">A discovery session maps your current skills to data career paths. Are you suited for analytics, engineering, or science roles? What's your realistic entry point? We chart a path based on your background, not generic assumptions.</p>
+        <p class="step-desc">A discovery session maps your current skills to data career paths. Are you suited for analytics, engineering, or science roles? We chart a path based on your background, not generic assumptions.</p>
         <div class="chips"><span class="chip">Skills assessment</span><span class="chip">Data role mapping</span><span class="chip">Realistic timeline</span></div>
       </div>
     </div>
     <div class="step-item reveal-left">
       <div class="step-num-col"><span class="step-num-label">02</span><div class="step-pip"></div></div>
       <div>
-        <div class="step-title">Learn data with industry experts</div>
-        <p class="step-desc">Taught by data practitioners from top Australian companies and universities. Master SQL, Python, analytics tools, and data workflows that hiring managers actually use. Co-designed with employers so day-one skills are exactly what the job demands.</p>
-        <div class="chips"><span class="chip">SQL & Python</span><span class="chip">Real data projects</span><span class="chip">Industry instructors</span></div>
+        <div class="step-title">Learn with industry experts</div>
+        <p class="step-desc">Taught by data practitioners from top Australian companies and universities. Master SQL, Python, and analytics tools that hiring managers actually use. Co-designed with employers so day-one skills match what the job demands.</p>
+        <div class="chips"><span class="chip">SQL &amp; Python</span><span class="chip">Real data projects</span><span class="chip">Industry instructors</span></div>
       </div>
     </div>
     <div class="step-item reveal-left">
       <div class="step-num-col"><span class="step-num-label">03</span><div class="step-pip"></div></div>
       <div>
-        <div class="step-title">Build your data portfolio</div>
-        <p class="step-desc">Create real analytics projects and dashboards that show you can handle data work. Your portfolio becomes your proof. You'll have 3+ projects that hiring managers can assess, the difference between theory and demonstrable skill.</p>
+        <div class="step-title">Build your portfolio</div>
+        <p class="step-desc">Create real analytics projects and dashboards that show you can handle data work. Your portfolio becomes your proof. Three or more projects that hiring managers can assess — the difference between theory and demonstrable skill.</p>
         <div class="chips"><span class="chip">Real datasets</span><span class="chip">Portfolio projects</span><span class="chip">Peer review</span></div>
       </div>
     </div>
@@ -174,7 +212,7 @@
       <div>
         <div class="step-title">Land the data role</div>
         <p class="step-desc">Direct connections to hiring data teams, interview prep specific to data roles, and salary negotiation support. We stay with you until you're hired. The alumni network connects you to the data community long after you start.</p>
-        <div class="chips"><span class="chip">Data company network</span><span class="chip">Interview coaching</span><span class="chip">Alumni data community</span></div>
+        <div class="chips"><span class="chip">Data company network</span><span class="chip">Interview coaching</span><span class="chip">Alumni community</span></div>
       </div>
     </div>
   </div>
@@ -183,24 +221,15 @@
 <!-- PILLARS -->
 <div id="pillars" class="pillars-wrap">
   <div class="pillars-section">
-    <!-- corner ornament -->
-    <svg width="240" height="240" style="position:absolute;top:-20px;right:-20px;pointer-events:none;opacity:0.18" aria-hidden="true">
-      <circle cx="240" cy="0" r="200" fill="none" stroke="#84e7a5" stroke-width="1.5"/>
-      <circle cx="240" cy="0" r="140" fill="none" stroke="#84e7a5" stroke-width="1"/>
-      <circle cx="240" cy="0" r="80"  fill="none" stroke="#84e7a5" stroke-width="0.8"/>
-      <circle cx="205" cy="65"  r="6" fill="#84e7a5"/>
-      <circle cx="162" cy="116" r="4" fill="#84e7a5"/>
-      <circle cx="108" cy="150" r="3" fill="#84e7a5"/>
-    </svg>
     <span class="label">Everything you need for data</span>
-    <h2>Six pillars that unlock<br><span style="color:var(--matcha-300)">data careers</span></h2>
+    <h2>Six pillars that unlock<br>data careers</h2>
     <div class="pillars-grid" data-stagger>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">🏫</div><div class="pillar-title">Data-specific curriculum</div><p class="pillar-desc">SQL, Python, analytics tools, and real data workflows from instructors at top universities and leading data-focused companies. Not generic tech training.</p></div>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">👥</div><div class="pillar-title">Data community cohort</div><p class="pillar-desc">Cohorts of 15-25 peers pivoting to data together. Near-peer mentors who've made the jump to analytics/engineering roles. Shared struggle builds lasting connections.</p></div>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">💰</div><div class="pillar-title">Financial pathways</div><p class="pillar-desc">Income Share Agreements, scholarships, and government-backed options. No upfront costs shouldn't stop you from breaking into data careers.</p></div>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">🎯</div><div class="pillar-title">Real data projects</div><p class="pillar-desc">Build actual analytics dashboards and data pipelines. Your portfolio becomes proof you can do the work. 3+ projects to show hiring managers.</p></div>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">🔒</div><div class="pillar-title">Someone to ask</div><p class="pillar-desc">Zero assumption of prior knowledge. When you hit a wall, there's a mentor who says "ignore that for now", not silence. Confusion is expected and supported, not a signal to quit.</p></div>
-      <div class="pillar-card reveal-child"><div class="pillar-icon">⏱</div><div class="pillar-title">Flexible + intensive</div><p class="pillar-desc">16 weeks to job-ready without abandoning your current job or life. Learn data skills around your schedule. Bootcamp rigor, flexible format.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#127979;</div><div class="pillar-title">Data-specific curriculum</div><p class="pillar-desc">SQL, Python, analytics tools, and real data workflows from instructors at top universities and leading data-focused companies. Not generic tech training.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#128101;</div><div class="pillar-title">Data community cohort</div><p class="pillar-desc">Cohorts of 15&ndash;25 peers pivoting to data together. Near-peer mentors who've made the jump. Shared struggle builds lasting connections.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#128176;</div><div class="pillar-title">Financial pathways</div><p class="pillar-desc">Income share agreements, scholarships, and government-backed options. Upfront cost should never be the deciding factor.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#127919;</div><div class="pillar-title">Real data projects</div><p class="pillar-desc">Build actual analytics dashboards and data pipelines. Your portfolio becomes proof you can do the work. Three or more projects for hiring managers.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#128274;</div><div class="pillar-title">Someone to ask</div><p class="pillar-desc">Zero assumption of prior knowledge. When you hit a wall, there's a mentor who says "ignore that for now" &mdash; not silence. Confusion is expected and supported.</p></div>
+      <div class="pillar-card reveal-child"><div class="pillar-icon">&#9201;</div><div class="pillar-title">Flexible + intensive</div><p class="pillar-desc">16 weeks to job-ready without abandoning your current job or life. Bootcamp rigour, flexible format.</p></div>
     </div>
   </div>
 </div>
@@ -214,10 +243,10 @@
       <div class="persona-header">
         <div class="persona-avatar pa-y">A</div>
         <div class="persona-name">Ashley, 34</div>
-        <div class="persona-role">Literature grad • Single parent</div>
+        <div class="persona-role">Literature grad &bull; Single parent</div>
       </div>
       <div class="persona-body">
-        <p class="persona-quote">"I could see data was the move, stable, well-paid, in-demand. But every course assumed I knew Python. I needed someone to teach me from zero, without judgment."</p>
+        <p class="persona-quote">"I could see data was the move &mdash; stable, well-paid, in-demand. But every course assumed I knew Python. I needed someone to teach me from zero, without judgment."</p>
         <div class="ptags"><span class="ptag">Non-technical background</span><span class="ptag">Career changer</span><span class="ptag">Time-constrained</span></div>
       </div>
     </div>
@@ -225,7 +254,7 @@
       <div class="persona-header">
         <div class="persona-avatar pa-g">M</div>
         <div class="persona-name">Marcus, 28</div>
-        <div class="persona-role">Retail manager • Regional VIC</div>
+        <div class="persona-role">Retail manager &bull; Regional VIC</div>
       </div>
       <div class="persona-body">
         <p class="persona-quote">"I wanted to break into data but wasn't sure if analyst, engineer, or scientist was right. I needed a roadmap that matched my actual background, not a generic bootcamp."</p>
@@ -236,10 +265,10 @@
       <div class="persona-header">
         <div class="persona-avatar pa-b">S</div>
         <div class="persona-name">Sunita, 41</div>
-        <div class="persona-role">Teacher • Returning after break</div>
+        <div class="persona-role">Teacher &bull; Returning after break</div>
       </div>
       <div class="persona-body">
-        <p class="persona-quote">"I had analytical skills from teaching but no data credentials. I needed proof, a portfolio, that I could do data work, and support finding data roles that valued my background."</p>
+        <p class="persona-quote">"I had analytical skills from teaching but no data credentials. I needed proof &mdash; a portfolio &mdash; that I could do data work, and support finding roles that valued my background."</p>
         <div class="ptags"><span class="ptag">Analytical mindset</span><span class="ptag">Transferable skills</span><span class="ptag">Portfolio building</span></div>
       </div>
     </div>
@@ -250,15 +279,9 @@
 <div class="partners-strip reveal">
   <span class="label">Backed by credible Australian organisations</span>
   <div class="partners-row">
-    <div class="partner-logo" title="University of Melbourne">
-      <img src="logos/uom-logo.jpg" alt="University of Melbourne">
-    </div>
-    <div class="partner-logo" title="AURIN">
-      <img src="logos/aurin-logo.png" alt="AURIN">
-    </div>
-    <div class="partner-logo" title="TAFE VIC">
-      <img src="logos/tafe-vic-black-logo.png" alt="TAFE VIC">
-    </div>
+    <div class="partner-logo" title="University of Melbourne"><img src="logos/uom-logo.jpg" alt="University of Melbourne"></div>
+    <div class="partner-logo" title="AURIN"><img src="logos/aurin-logo.png" alt="AURIN"></div>
+    <div class="partner-logo" title="TAFE VIC"><img src="logos/tafe-vic-black-logo.png" alt="TAFE VIC"></div>
   </div>
 </div>
 -->
@@ -272,7 +295,7 @@
       <div>
         <p class="fin-lead">Access to quality career education shouldn't depend on who can afford to pay upfront. PivotLab has built multiple financial pathways so cost is never the deciding factor.</p>
         <div class="fin-options" data-stagger>
-          <div class="fin-option reveal-child"><div class="fin-icon">&#128200;</div><div><div class="fin-title">Income Share Agreement</div><div class="fin-desc">Pay nothing upfront. A small income share begins only after you land a job above the threshold.</div></div></div>
+          <div class="fin-option reveal-child"><div class="fin-icon">&#128200;</div><div><div class="fin-title">Income share agreement</div><div class="fin-desc">Pay nothing upfront. A small income share begins only after you land a job above the threshold.</div></div></div>
           <div class="fin-option reveal-child"><div class="fin-icon">&#127941;</div><div><div class="fin-title">Cohort scholarships</div><div class="fin-desc">Needs-based and merit scholarships available in every cohort, prioritising underrepresented career changers.</div></div></div>
           <div class="fin-option reveal-child"><div class="fin-icon">&#127982;</div><div><div class="fin-title">Government-aligned funding</div><div class="fin-desc">We align with Australian Skills programs so eligible learners can access existing government support.</div></div></div>
           <div class="fin-option reveal-child"><div class="fin-icon">&#128179;</div><div><div class="fin-title">Flexible payment plans</div><div class="fin-desc">Spread payments across your cohort timeline with zero interest.</div></div></div>
@@ -294,7 +317,6 @@
     </div>
   </div>
 </div>
-
 
 <!-- EMPLOYER CTA -->
 <section class="employer-cta reveal">
@@ -318,19 +340,18 @@
 </div>
 -->
 
-
-<!-- CTA -->
+<!-- CTA BAND -->
 <div id="cta" class="cta-wrap">
   <div class="cta-section reveal">
-    <!-- radial sunburst -->
+    <!-- subtle concentric circles -->
     <svg class="cta-svg-bg" width="640" height="640" viewBox="0 0 640 640" aria-hidden="true">
-      <circle cx="320" cy="320" r="80"  fill="none" stroke="#3bd3fd" stroke-width="1"/>
-      <circle cx="320" cy="320" r="160" fill="none" stroke="#3bd3fd" stroke-width="1"/>
-      <circle cx="320" cy="320" r="250" fill="none" stroke="#3bd3fd" stroke-width="0.8"/>
-      <circle cx="320" cy="320" r="310" fill="none" stroke="#3bd3fd" stroke-width="0.5"/>
+      <circle cx="320" cy="320" r="80"  fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+      <circle cx="320" cy="320" r="160" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/>
+      <circle cx="320" cy="320" r="250" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/>
+      <circle cx="320" cy="320" r="310" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.5"/>
     </svg>
     <span class="label">Ready?</span>
-    <h2>Your pivot starts with<br>one <span style="color:var(--slushie-500)">application</span></h2>
+    <h2>Your pivot starts with<br>one <span class="hl-accent-light">application</span></h2>
     <p class="cta-sub">Join the next cohort. Credible educators, a community who gets it, and financial pathways that remove every remaining excuse.</p>
     <a href="#" class="btn-white" onclick="openEOI();return false;">Register your interest &rarr;</a>
   </div>
@@ -341,21 +362,38 @@
   <div class="footer-inner">
     <div class="footer-top">
       <div>
-        <div class="footer-logo"><img src="logos/pivotlab-logo.svg" alt="PivotLab" class="footer-logo-img"></div>
+        <div class="footer-logo">
+          <img src="logos/pivotlab-logo.svg" alt="PivotLab" class="footer-logo-img">
+        </div>
         <div class="footer-tagline">Australia's career pivot platform. Enabling everyone to access a better working life.</div>
       </div>
       <div class="footer-cols">
         <div class="footer-col">
           <div class="footer-col-head">Platform</div>
-          <ul><li><a href="#">How it works</a></li><li><a href="#">Programs</a></li><li><a href="#">Our educators</a></li><li><a href="#">Financial support</a></li></ul>
+          <ul>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Our educators</a></li>
+            <li><a href="#">Financial support</a></li>
+          </ul>
         </div>
         <div class="footer-col">
           <div class="footer-col-head">Community</div>
-          <ul><li><a href="#">Cohort stories</a></li><li><a href="#">Alumni network</a></li><li><a href="#">Mentors</a></li><li><a href="#">Employers</a></li></ul>
+          <ul>
+            <li><a href="#">Cohort stories</a></li>
+            <li><a href="#">Alumni network</a></li>
+            <li><a href="#">Mentors</a></li>
+            <li><a href="#">Employers</a></li>
+          </ul>
         </div>
         <div class="footer-col">
           <div class="footer-col-head">Company</div>
-          <ul><li><a href="#">About us</a></li><li><a href="#">Blog</a></li><li><a href="#">Contact</a></li><li><a href="#">pivotlab.com.au</a></li></ul>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">pivotlab.com.au</a></li>
+          </ul>
         </div>
       </div>
     </div>

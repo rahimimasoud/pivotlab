@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>PivotLab — Launch your data career</title>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+
+  <!-- Accent band — left edge -->
+  <rect x="0" y="0" width="6" height="630" fill="#2E6F6A"/>
+
+  <!-- Surface-muted right panel -->
+  <rect x="680" y="0" width="520" height="630" fill="#F5F4F1"/>
+
+  <!-- Subtle dot grid on right panel -->
+  <defs>
+    <pattern id="og-dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="rgba(14,14,16,0.08)"/>
+    </pattern>
+  </defs>
+  <rect x="680" y="0" width="520" height="630" fill="url(#og-dots)"/>
+
+  <!-- Divider line -->
+  <line x1="680" y1="40" x2="680" y2="590" stroke="rgba(14,14,16,0.12)" stroke-width="0.5"/>
+
+  <!-- LEFT: wordmark + headline -->
+
+  <!-- Eyebrow label -->
+  <text x="80" y="196" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="500" letter-spacing="3" fill="#2E6F6A"
+        text-anchor="start">PIVOT TO DATA CAREERS</text>
+
+  <!-- Headline -->
+  <text x="80" y="280" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="500" letter-spacing="-1.5" fill="#0E0E10"
+        text-anchor="start">Launch your</text>
+  <text x="80" y="348" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="500" letter-spacing="-1.5" fill="#0E0E10"
+        text-anchor="start">data career.</text>
+  <text x="80" y="416" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="500" letter-spacing="-1.5" fill="#2E6F6A"
+        text-anchor="start">Fully supported.</text>
+
+  <!-- Tagline -->
+  <text x="80" y="490" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="400" fill="#5A5A5F" text-anchor="start">pivotlab.com.au</text>
+
+  <!-- Thin dashed rule under headline -->
+  <line x1="80" y1="448" x2="560" y2="448" stroke="rgba(46,111,106,0.3)" stroke-width="0.5" stroke-dasharray="4 6"/>
+
+  <!-- RIGHT: prism + rays (scaled, centred in right panel) -->
+
+  <!-- Subtle refraction zone -->
+  <polygon points="910,185 840,380 1130,440 1130,130"
+           fill="#2E6F6A" fill-opacity="0.05" stroke="none"/>
+
+  <!-- Diverging rays -->
+  <line x1="910" y1="185" x2="1160" y2="128" stroke="#2E6F6A" stroke-width="0.75" stroke-opacity="0.22"/>
+  <line x1="889" y1="238" x2="1160" y2="218" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.38"/>
+  <line x1="868" y1="291" x2="1160" y2="310" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.52"/>
+  <line x1="847" y1="344" x2="1160" y2="400" stroke="#2E6F6A" stroke-width="1"    stroke-opacity="0.38"/>
+  <line x1="840" y1="380" x2="1160" y2="490" stroke="#2E6F6A" stroke-width="0.75" stroke-opacity="0.22"/>
+
+  <!-- Dashed back face -->
+  <path d="M 750 165 L 812 165" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <path d="M 858 165 L 920 165" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <path d="M 750 165 L 769 205" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <path d="M 788 250 L 812 300" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <path d="M 920 165 L 900 205" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <path d="M 880 250 L 862 300" fill="none" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <line x1="750" y1="165" x2="730" y2="185" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <line x1="920" y1="165" x2="910" y2="185" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+  <line x1="835" y1="300" x2="840" y2="380" stroke="#0E0E10" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.4"/>
+
+  <!-- Solid front face -->
+  <path d="M 730 185 L 790 185" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 828 185 L 910 185" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 730 185 L 752 232" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 774 280 L 840 380" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 910 185 L 888 232" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M 864 280 L 840 380" fill="none" stroke="#0E0E10" stroke-width="2.2" stroke-linecap="square"/>
+</svg>
