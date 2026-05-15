@@ -47,12 +47,10 @@ nav {
 }
 
 .nav-logo {
-  font-size: 20px; font-weight: 700; letter-spacing: -0.5px;
-  color: var(--black); text-decoration: none;
-  display: flex; align-items: center; gap: 6px;
+  text-decoration: none;
+  display: flex; align-items: center;
 }
-
-.nav-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--lemon-500); display: inline-block; }
+.nav-logo-img { height: 48px; width: auto; display: block; }
 
 .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
 
@@ -527,10 +525,8 @@ footer { background: var(--white); border-top: 1px solid var(--oat); padding: 48
   align-items: start; margin-bottom: 48px;
 }
 
-.footer-logo {
-  font-size: 22px; font-weight: 700; color: var(--black);
-  display: flex; align-items: center; gap: 6px; margin-bottom: 10px;
-}
+.footer-logo { margin-bottom: 10px; }
+.footer-logo-img { height: 64px; width: auto; display: block; }
 
 .footer-tagline { font-size: 14px; color: var(--silver); max-width: 220px; line-height: 1.5; }
 
